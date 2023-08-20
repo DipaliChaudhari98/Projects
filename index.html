@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipali Chaudhari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+
+            align-items: center;
+            height: 30px;
+            background-color: rgb(18, 18,64);
+            height: 80px;
+
+        }
+
+        nav ul{
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0px 23px;
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: azure;
+        }
+        nav ul li a:hover{
+            /*font-size: 2rm;*/
+            color: blueviolet;
+            
+        }
+        /*   Imp */
+            .firstsection{       
+            display: flex;
+            justify-content: space-around;
+            margin:80px 0px;
+            flex-direction: center;
+           
+        }
+        .purple{
+            color: rgb(63, 16, 108);
+        }
+        .firstsection > div{
+          width: 30%;
+           
+        }
+        .leftsection{
+         font-size: 2rem; 
+        }
+        .rightsection img{
+           
+            
+            margin-left: 45px;
+            width: 80%;}
+        main hr{
+                  border:0cap;
+                   color: rgb(19, 19, 87);
+                   height: 1px;
+                   margin: 30px 60px;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 85vh;
+        }
+        .grey{
+            color: grey;
+            font-style: italic;
+
+        }
+        .secondsection div{
+             background: white;
+             width: 80vw;
+             height: 1px;
+             margin: 40px 0px;
+        }
+        .secondsection .box .vertical{
+           
+            width: 90px;
+            height: 51vh;
+        }
+        .secondsection .bottomline{
+            background-color: whitesmoke;
+            margin: 301px 0px;
+            width: 80vw;
+            height: 1px;
+                
+        }
+        .Projectsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+            display: flex;
+            flex-direction: center;
+            justify-content: space-between;
+       }
+        .Projectsection .left{
+            width: 75vh;
+            height: 60vh;
+            text-align: center;
+           }
+        .Projectsection .right{
+          height: 60vh;
+           }
+        div .grey{
+            margin-left: 100px;
+         }
+        div h2{
+            margin-left: 100px;
+            margin-bottom: 40px;
+        }
+       .Projectsection .right img{
+            width: 55vh;
+            margin: 21px 0px;
+             }
+
+     .Projectsection .left div button{
+        border-radius: 8px;
+        width: 120px;
+        height: 40px;
+        font-size: 1.0rem;
+        background-color:rgb(85, 86, 151);
+        text-shadow: 12px;
+ }
+     .Projectsection .left div button:hover{
+       background-color:white;
+    }
+     .contactus{
+        
+            width: 60vwh;
+            margin: auto;
+            height: 50vh;
+            display: flex;
+            flex-direction: center;
+            justify-content: space-around;
+     }
+     .contactus .rightcontact{
+        
+        font-size: 1.1rem;
+        font-family: Arial;
+        
+     }
+     .contactus .leftcontact{
+       
+        font-size: 1.1rem;
+        font-family: Arial;
+     }
+     .icon{
+        
+        margin-left: 50px;
+        padding: 23px;
+        display: flex;
+        justify-items: flex-end;
+        height: 03vw;
+      
+     }
+     .icon div{
+        padding-left: 30px;
+        
+     }
+     .icon div a i{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.7rem;
+            text-decoration-line: none !important;
+            color:whitesmoke ;
+     }
+     .icon div a{
+        
+            text-decoration: none !important;
+            
+     }
+    .skills{
+        width: 100vwh;
+            margin: auto;
+            height: 70vh;
+            display: flex;
+            flex-direction: left;
+            justify-content: space-around;
+            align-items: center;
+       
+    }
+    .skills .leftskills .skillbar .progressfillc{
+        width: 70%;
+        height: 20px;
+        background-color: red;
+        transition: 0.2s;
+    }
+    .skills .leftskills .skillbar .progressfillcc{
+        width: 70%;
+        height: 20px;
+        background-color: red;
+    }
+    .skills .leftskills .skillbar .progressfilljava{
+        width: 80%;
+        height: 20px;
+        background-color: red;
+    }
+    .skills .leftskills .skillbar .progressfillpython{
+        width: 75%;
+        height: 20px;
+        background-color: red;
+    }
+    .skills .leftskills .skillbar .progressfillweb{
+        width: 80%;
+        height: 20px;
+        background-color: red;
+    }
+    .skills .leftskills .skillname{
+       font-size: 1.1rem;
+    }
+    .skills leftskills{
+        background-color: black;
+    
+       
+    }
+    .skills .leftskills .skillbar{
+       background-color:whitesmoke;
+       width:800px;
+       height: 20px;
+       border-radius: 4px;
+    }
+  
+
+
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="logo.jpg" width="85px" height="85px" alt="Image" style="background-color: rgb(18, 18, 33); backface-visibility: hidden;">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#second">About Us</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="firstsection" id="header">
+
+            <div class="leftsection">Hello My name is <span class="purple">Eliza</span>
+            <div>I am <span id="element"> </span></div>
+        </div>
+            <!-- Element to contain animated typing -->
+           
+            <div class="rightsection">
+                <img src="car.png" alt="Not Found">
+            </div>
+
+        </section>
+        <hr>
+
+
+        <section class="secondsection" id="second">
+        <span class="grey">Information About Me</span>
+        <h1>About Me</h1>
+
+        <div class="box">
+            <div class="vertical">
+                <div id="align">
+
+
+
+                    <p style="margin-left: 100px;">  Hello! My name is Dipali, and I am a Btech fresher from Jalgaon.<br><br>
+                        I have been waiting for this opportunity to step into the world of software development.
+                        I have always been a problem solver and have always wanted to be an independent developer, so this is a dream come true.
+                        I have worked with the Web development and have learned many useful tips and tricks along the way.<br><br>
+                        I hope you will allow me to prove myself worthy of your trust as you hire me for your company!</p>
+
+                   <a style="text-decoration: none;" href="Resume_Dipali Chaudhari.pdf"> <button style="margin-left: 80vh;margin-top: 80px;width: 100px;height: 40px;border-radius: 10px; text-shadow: 2px;">Download CV</button></a>
+                       
+                </div>
+             
+                 
+
+            </div>
+           
+          
+        </div>
+        <div class="bottomline"></div>
+        
+        
+        
+        </section>
+         
+        <hr>
+       
+       <div>
+        <span class="grey">What I Have done Yet</span>
+        <h2>Project</h2>
+    </div>
+        <section class="Projectsection" id="project">
+            
+           <div class="left">
+               
+             <h2>Beauty Parlor Management System</h2><br>
+
+             <p style="text-align: left; margin-left: 10px; ">
+                Hey I am <span style="color: rgb(22, 59, 87) ;">Eliza</span> , <br>                      
+                I am A Beautician I started my journey from 2022.
+                Here is my website.And Am added the Services which is available of our
+                parlor.First you have to take the appointment and select the list of services you have.<br>
+                We manage the your data in administrator side that how many appointements we get 
+                and also we added appointment manually also.<br>
+                As per any need we changing the content of at userside we changing it from administartor side.
+
+                </P>
+                <div style="margin-top: 25px;" >
+                    <a href="https://github.com/DipaliChaudhari98"><button ><i class="fa-sharp fa-solid fa-code-branch"> </i>  Github</button></a>
+                </div>
+                  </div>
+           <div class="right">
+
+            <a href="https://github.com/DipaliChaudhari98"><img src="parlor.png" alt="No Image"></a>
+  </div>
+ </section>
+       <hr>
+       <div>
+        <span class="grey">Here is my Skills</span>
+        <h2>Skills</h2>
+    </div>
+     <section class="skills" id="skill">
+         
+           <div class="leftskills">
+
+            <span class="skillname">C</span>
+            <br>
+            <div class="skillbar">
+                <div class="progressfillc">
+
+                </div>
+            </div>
+            <br>
+          
+            <span class="skillname">C++</span><br>
+            <div class="skillbar">
+                <div class="progressfillcc">
+
+                </div>
+            </div>
+            <br>
+            <span class="skillname">Java</span> <br><div class="skillbar">
+                <div class="progressfilljava">
+
+                </div>
+            </div>
+            <br>
+            <span class="skillname">Python</span><br> <div class="skillbar">
+                <div class="progressfillpython">
+
+                </div>
+            </div>
+            <br>
+            <span class="skillname">Web Development</span> <br><div class="skillbar">
+                <div class="progressfillweb">
+
+                </div>
+            </div>
+            <br>
+            
+
+
+           </div>
+      
+        
+ </section>
+       <hr>
+       <div>
+        <span class="grey">Contact Me Here</span>
+        <h2>Contact Me</h2>
+    </div>
+       <section class="contactus" id="contact">
+        
+        <div class="leftcontact">
+        <label><i class="fa-solid fa-face-smile fa-bounce"></i> Name</label><br><br>
+        <label><i class="fa-sharp fa-solid fa-envelope fa-bounce"></i> Email</label><br><br>
+        <label><i class="fa-sharp fa-solid fa-phone fa-bounce"></i> Mobie No</label><br><br>
+        <label><i class="fa-sharp fa-regular fa-language fa-bounce"></i> Language</label><br><br>
+       
+    </div>
+    <div class="rightcontact">
+        <label>: Dipali Anil Chaudhari</label><br><br>
+        <label>: chaudharidipali2003@gmail.com</label><br><br>
+        <label>: 8329382971</label><br><br>
+        <label>: English,Hindi,Marathi</label><br><br>
+       
+    </div>
+    
+   <br>
+   
+    </section>
+    <section class="icon">
+        
+           <div> <a href="https://twitter.com/?lang=en-in"><i class="fa-brands fa-twitter fa-bounce" 
+        ></i></a></div>
+           <div> <a href="https://www.facebook.com/login.php"><i class="fa-brands fa-facebook fa-bounce"></i></a></div>
+           <div> <a href="https://www.youtube.com/index"><i class="fa-brands fa-youtube fa-bounce"></i></a></div>
+        
+        
+        
+           
+           
+
+
+
+    </section>
+    
+    
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Web Developer</i> ', '&amp; Software Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+     
+</body>
+
+</html>
