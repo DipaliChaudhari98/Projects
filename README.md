@@ -1,2 +1,2 @@
 # Projects
-This is the portfoliog
+This is the portfolio
